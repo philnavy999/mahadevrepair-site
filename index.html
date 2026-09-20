@@ -6,7 +6,26 @@
 <meta name="description" content="Mahadev Car Repair Service — most trusted and reliable car repair service in any city. 24/7 support, online booking, 10% off on every order. Book on WhatsApp.">
 <meta name="theme-color" content="#0b0b0b">
 <link rel="canonical" href="https://mahadevrepair.site/">
-<!-- GOOGLE ADS TAG PLACEHOLDER: real gtag.js for this account goes here after the site is live and uploaded to Google Ads. Do not copy a tag from any other site. -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18455800651"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18455800651');
+</script>
+<!-- Google Ads conversion: fires on every WhatsApp click, no redirect (links open in a new tab) -->
+<script>
+function gtag_report_conversion() {
+  gtag('event', 'conversion', {
+    'send_to': 'AW-18455800651/HSChCI7qhf8cEMvWtOBE',
+    'value': 1.0,
+    'currency': 'INR'
+  });
+  return true;
+}
+</script>
 <title>Mahadev Car Repair Service — Trusted Car Repair in Any City</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -16,9 +35,9 @@
 <section class="hero">
   <div class="poster-wrap">
     <img class="poster" src="assets/poster.webp" alt="Mahadev Car Repair Service — most trusted and reliable service in any city. 24/7 support, online booking, 10% off on every order." width="520" height="780" fetchpriority="high">
-    <a class="poster-cta" href="https://wa.link/mahadevid1" target="_blank" rel="noopener" aria-label="Book Service on WhatsApp"></a>
+    <a class="poster-cta" href="https://wa.link/mahadevid1" target="_blank" rel="noopener" onclick="return gtag_report_conversion();" aria-label="Book Service on WhatsApp"></a>
   </div>
-  <a class="btn btn-wa btn-lg" href="https://wa.link/mahadevid1" target="_blank" rel="noopener">
+  <a class="btn btn-wa btn-lg" href="https://wa.link/mahadevid1" target="_blank" rel="noopener" onclick="return gtag_report_conversion();">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-12 7l-5 1 1.3-4.7A8 8 0 1 1 20 11.5Z"/><path d="M8 8c0 4 4 7 7 7l1-2-3-1-1 1-2-2 1-1-1-3Z"/></svg>
     Book Service on WhatsApp
   </a>
@@ -181,7 +200,7 @@
 </section>
 </main>
 
-<a class="sticky-wa" href="https://wa.link/mahadevid1" target="_blank" rel="noopener">
+<a class="sticky-wa" href="https://wa.link/mahadevid1" target="_blank" rel="noopener" onclick="return gtag_report_conversion();">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-12 7l-5 1 1.3-4.7A8 8 0 1 1 20 11.5Z"/><path d="M8 8c0 4 4 7 7 7l1-2-3-1-1 1-2-2 1-1-1-3Z"/></svg>
   <span>Book Service on WhatsApp<small>10% off every order</small></span>
 </a>
